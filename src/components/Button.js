@@ -8,7 +8,6 @@ export default class Button extends Component {
     return value === "eng" ? "click" : "klik";
   }
   render() {
-    // const text = this.context === "eng" ? "Click" : "Klikni";
     return (
       <div>
         <ColorContext.Consumer>
